@@ -24,10 +24,10 @@ def remplir_T(t1,t2,t3,n):
         t3[i]=identifier(t1[i],t2[i])
 """------------------------------------------------------------------------------"""
 #l'id de chaque participent c'est la somme de son score avec les code acqui de chaque letre de sont nom
-def identifier(t1,t2):
-    s=t2
-    for i in range(len(t1)):
-        s=s+ord(t1[i])
+def identifier(A, B):
+    s=B
+    for i in range(len(A)):
+        s=s+ord(A[i])
     return s
 """------------------------------------------------------------------------------"""
 #tester le nom du participent ==> il faux contin uniquement des letre 
