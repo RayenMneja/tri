@@ -23,7 +23,7 @@ def remplir_T(t1,t2,t3,n):
             t2[i] = int(input('son scor='))
         t3[i]=identifier(t1[i],t2[i])
 """------------------------------------------------------------------------------"""
-#l'id de chaque participent c'est la somme de son score avec les code acqui de chaque letre de sont nom
+#l'id de chaque participent c'est la somme de son score avec les code acqui de chaque letre de sont nom (A=t1[i] et B=t2[i])
 def identifier(A, B):
     s=B
     for i in range(len(A)):
